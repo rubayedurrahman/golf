@@ -1,0 +1,173 @@
+*{
+	margin: 0PX;
+	padding: 0px;
+}
+body{
+	background: gray;
+}
+ ul{
+	float:right;
+	list-style: none;
+}
+ul li {
+display: inline-block;
+margin: 20px 10px;
+}
+ul li a {
+	text-decoration: none;
+	border:2px solid black;
+	padding: 5px 20px;
+	color: #fff;
+}
+ul li a:hover {
+	background:white;
+	color: black;
+	transition: .5px;
+}
+#logo img{
+	height: auto;
+	width: 60px;
+	float:left;
+	padding: 10px;
+}
+#team{
+	height: 500px;
+	width:1200px;
+	background: white;
+	position: absolute;
+	margin: 100px auto;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#img {
+	height: 200px;
+	width: 200px;
+	background-image: url("../images/player.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	border-radius: 50%;
+	
+}
+#p1{
+	height: 300px;
+	width: 800px;
+	margin: auto;
+	text-align: justify;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	}
+#ff{
+	height: 50px;
+	width: 500px;
+}
+h2{
+	margin-left: 200px;
+}  
+#vv{
+	height: 500px;
+	width:1200px;
+	background: white;
+	position: absolute;
+	margin: 100px auto;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 550px;
+}
+#kk{
+	height: 50px;
+	width: 500px;
+}
+h2{
+	margin-left: 200px;
+}
+#aa{
+	height: 200px;
+	width: 200px;
+	background-image: url("../images/player2.gif");
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	border-radius: 50%;	
+}
+#p2{
+	height: 300px;
+	width: 800px;
+	margin: auto;
+	text-align: justify;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	}
+#ss{
+	height: 500px;
+	width:1200px;
+	background: white;
+	position: absolute;
+	margin: 100px auto;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1000px;
+}
+#dd{
+	height: 50px;
+	width: 500px;
+}
+h2{
+	margin-left: 200px;
+}
+#gg{
+	height: 200px;
+	width: 200px;
+	background-image: url("../images/player3.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	border-radius: 50%;	
+}
+#p3{
+	height: 300px;
+	width: 800px;
+	margin: auto;
+	text-align: justify;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	}
+#hh{
+	height: 500px;
+	width:1200px;
+	background: white;
+	position: absolute;
+	margin: 100px auto;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 500px;
+}
+#uu{
+	height: 50px;
+	width: 500px;
+}
+h2{
+	margin-left: 200px;
+}
+#ll{
+	height: 200px;
+	width: 200px;
+	background-image: url("../images/player4.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	border-radius: 50%;
+	
+}
+#p4{
+	height: 300px;
+	width: 800px;
+	margin: auto;
+	text-align: justify;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	}

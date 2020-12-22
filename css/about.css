@@ -1,0 +1,44 @@
+*{
+	margin: 0PX;
+	padding: 0px;
+}
+body{
+	background-image: url("../images/golf.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+ ul{
+	float:right;
+	list-style: none;
+}
+ul li {
+display: inline-block;
+margin: 20px 10px;
+}
+ul li a {
+	text-decoration: none;
+	border:2px solid black;
+	padding: 5px 20px;
+	color: #fff;
+}
+ul li a:hover {
+	background:white;
+	color: black;
+	transition: .5px;
+}
+#logo img{
+	height: 100px;
+	width: 100px;
+	float:left;
+	padding: 10px;
+}
+#yy{
+
+	height: 520px; 
+	width:1200px;
+	background: white;
+	top: 120px;
+	left: 70px;
+	position: absolute;	
+}

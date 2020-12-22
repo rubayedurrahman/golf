@@ -1,0 +1,88 @@
+*{
+	margin: 0PX;
+	padding: 0px;
+}
+body{
+	background-image: url("../images/golf.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+ ul{
+	float:right;
+	list-style: none;
+}
+ul li {
+display: inline-block;
+margin: 20px 10px;
+}
+ul li a {
+	text-decoration: none;
+	border:2px solid black;
+	padding: 5px 20px;
+	color: #fff;
+}
+ul li a:hover {
+	background:white;
+	color: black;
+	transition: .5px;
+}
+#logo img{
+	height: 100px;
+	width: 100px;
+	float:left;
+	padding: 10px;
+}
+#title{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+#title h2 {
+	color: #fff;
+	font-size: 40px;
+	font-family: 'JetBrains Mono', monospace;
+}
+#button {
+	position: absolute;
+	top:60%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+#button #btn1{
+	text-decoration: none;
+	border: 2px solid white;
+	color: white;
+	font-size: 20px;
+	font-family: 'JetBrains Mono', monospace;
+	padding: 8px 12px;
+}
+#button #btn2{
+	text-decoration: none;
+	border: 2px solid white;
+	color: white;
+	font-size: 20px;
+	font-family: 'JetBrains Mono', monospace;
+	padding: 8px 12px;
+}
+ #button #btn1:hover {
+	color: black;
+	background: white;
+	transition: .5s;
+}
+#button #btn2:hover {
+	color: black;
+	background: white;
+	transition: .5s;
+}
+#fotter{
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#fotter p{
+	color:white;
+	font-family: 'JetBrains Mono', monospace;
+}
